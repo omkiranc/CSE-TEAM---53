@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Selection System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Student Course Selection</h1>
+        <p>Select 4 Theory Courses and 2 Lab Courses</p>
+    </header>
+
+    <main>
+        <section id="theory-courses-section">
+            <h2>Select Theory Courses</h2>
+            <div id="theory-courses" class="course-grid"></div>
+        </section>
+        <section id="lab-courses-section">
+            <h2>Select Lab Courses</h2>
+            <div id="lab-courses" class="course-grid"></div>
+        </section>
+        <section id="teacher-profile-section" class="teacher-profile">
+            <h2>Teacher Profile</h2>
+            <div id="teacher-profile-content"></div>
+        </section>
+        <section id="feedback-section" class="feedback-form">
+            <h2>Submit Feedback</h2>
+            <form id="feedbackForm">
+                <textarea id="feedback" placeholder="Submit your feedback..." required></textarea>
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <button id="submitCourses">Submit Course Selection</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
